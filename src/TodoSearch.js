@@ -8,11 +8,11 @@ function TodoSearch({searchValue, setSearchValue}) {
         console.log(val);
         setSearchValue(val);
     };
-
+    
     return [
         <input
             className="TodoSearch"
-            placeholder="Onion"
+            placeholder="Filter"
             value={searchValue}
             onChange={onSearchValueChange}
         />
