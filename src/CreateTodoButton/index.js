@@ -11,7 +11,7 @@ function CreateTodoButton(props) {
             className="CreateTodoButton"
             onClick={onClickButton}
         >
-            +
+            New
         </button>
     );
 }
